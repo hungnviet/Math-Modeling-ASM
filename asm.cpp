@@ -134,7 +134,7 @@ public:
                 q.pop();
                 if (visit[l])
                     continue;
-                visit[l] = true;
+                visit[l] = false;
                 for (int r : city[l])
                 {
                     Arc arc = net[l][r];
